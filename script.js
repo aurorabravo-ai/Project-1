@@ -126,9 +126,9 @@ window.addEventListener('scroll', () => {
     document.querySelectorAll('.nav-link').forEach(link => {
         link.classList.remove('active');
         if (link.getAttribute('href').slice(1) === current) {
-            link.style.color = 'var(--primary-color)';
+            link.style.color = 'var(--nav-link-active-color)';
         } else {
-            link.style.color = 'var(--text-dark)';
+            link.style.color = 'var(--nav-link-color)';
         }
     });
 });

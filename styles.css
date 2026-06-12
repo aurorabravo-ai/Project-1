@@ -13,6 +13,8 @@
     --accent-orange: #ffd9c7;
     --text-dark: #4b4b4b;
     --text-light: #7a7a7a;
+    --nav-link-color: #6b6b6b;
+    --nav-link-active-color: #111111;
     --bg-light: #fff2f7;
     --bg-white: #ffffff;
     --border-color: #000000;
@@ -74,7 +76,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: var(--lace-color);
+    color: var(--nav-link-color);
     font-weight: normal;
     text-shadow: none;
     transition: var(--transition);
@@ -82,7 +84,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: var(--nav-link-active-color);
     transform: none;
     text-shadow: none;
     opacity: 0.8;
